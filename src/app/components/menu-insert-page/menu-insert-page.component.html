@@ -1,0 +1,12 @@
+<div class="container_insert-page">
+  <h2>Crie seu conteudo para o Blog: </h2>
+    <div class="inputText">
+    <input #newItem type="text" [(ngModel)]="dados" >
+
+  <p> {{dados}}</p>
+
+</div>
+<button (click)="adicionarText(newItem.value)">Adicionar conteudo no Blog</button>
+
+
+</div>

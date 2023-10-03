@@ -1,0 +1,14 @@
+.itens{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.itens>button{
+  margin-top: 20px;
+}
+.itens>h1{
+  margin: 40px;
+  text-align: center;
+  font-size: 30px;
+}

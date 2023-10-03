@@ -1,0 +1,16 @@
+ .container_notices{
+
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+
+ .container_notices>img{
+  width: 50%;
+
+ }
+ .container_notices>p{
+ margin-left: 10px;
+ }
